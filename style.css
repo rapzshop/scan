@@ -1,0 +1,16 @@
+:root{--bg:#071027;--pane:#0f1724;--muted:#9aa7c0;--accent:#00d4ff;--accent2:#8a2be2}
+  body{font-family:Inter,system-ui,Arial;margin:0;background:linear-gradient(180deg,var(--bg),#0d1630);color:#eaf2ff;min-height:100vh;display:flex;align-items:flex-start;justify-content:center;padding:20px;}
+  .app{width:100%;max-width:1100px;display:grid;grid-template-columns:420px 1fr;gap:18px}
+  .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+  h1{font-size:1.25rem;margin:0 0 6px 0;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+  .muted{color:var(--muted);font-size:0.92rem}
+  video, canvas{border-radius:10px;display:block;width:100%;height:auto;background:#000}
+  .controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  button{background:linear-gradient(90deg,var(--accent),var(--accent2));border:none;color:#021025;padding:8px 10px;border-radius:8px;cursor:pointer;font-weight:700}
+  button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--muted)}
+  select,input{padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit;width:100%}
+  .examples{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+  .label-row{display:flex;gap:8px}
+  .big-output{margin-top:12px;background:#071428;padding:12px;border-radius:8px;font-family:ui-monospace,monospace;min-height:40px}
+  .inline{display:inline-block}
+  .small{font-size:0.86rem;color:var(--muted)}
